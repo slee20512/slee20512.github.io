@@ -1,11 +1,11 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: Seojin Lee
+description: Ph.D. student | Stanford University | Vision Science & Computational Modeling
 
 baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
-email: #
+url: "seojinl.github.io" #custom url to be used instead of GitHub repository
+email: seojinl@stanford.edu
 
 # Pagination
 paginate: 4
