@@ -3,19 +3,21 @@ layout: about
 permalink: /
 profile:
   align: right
-  image: profile.png
+  image: profile_photo.jpg
 published: true
 ---
 
-[Gradfolio](https://github.com/jitinnair1/gradfolio){:target="_blank"} is a responsive, dark-mode ready Jekyll theme designed keeping academia in mind. The easiest way to install the theme is to fork it using GitHub. Check the README file for [instructions](https://github.com/jitinnair1/gradfolio#installation){:target="_blank"}.
+Hi, I’m **Seojin Lee**, a Ph.D. student in the **Department of Psychology at Stanford University**, jointly advised by **Dr. Dan Yamins** and **Dr. Kalanit Grill-Spector**.
 
-If you want to use this space to write your biography here, edit the `index.md` file. You can put a picture in, too. Rename your picture to `profile.png` and put it in the `assets/images/` folder.
+I’m broadly interested in uncovering the **computational principles of the visual cortex** that enables efficient and flexible visual perception. My research takes a two-way approach:
+1. Building biologically-plausible deep neural networks inspired by the brain.
+2. Using gaps between model and biological vision to gain insight into what makes the brain's computations unique – an iterative process towards better models of the visual brain. 
 
-The social-icons footer can be used to link profiles from GitHub, OrcID and ReasearchGate aprart form the usual Twitter, LinkedIn and Facebook. You can add your user ID in the `_config.yml` file to link your accounts.
+Currently, I study the organizing principles of the developing visual system, focusing on how the brain begins to structure itself even before visual experience. I model retinal waves as a potential driving force for optimizing neural wiring and feature learning. To do this, I use topographic deep artificial neural networks (TDANNs) that simulate cortical organization across layers, aiming to understand how early retinal activity may support both efficient wiring and useful visual representations. 
 
-PS: If you liked the theme, do star it on GitHub!
+Before Stanford, I earned my B.S. in Computer Science and Cognitive Science from Johns Hopkins University, and worked as a research assistant in **Dr. Elias Issa**’s lab at Columbia University’s Zuckerman Institute. There, I investigated how geometry-based processing emerges in human vision. We showed that standard face recognition models exhibit strong texture bias and limited sensitivity to facial geometry, reducing their ability to generalize to new faces. We found that training with emotion-driven, within-identity variation can improve generalization. 
 
-### Also, check out:
+I’ve also had the privilege of working with **Dr. Solange Brown** (Johns Hopkins School of Medicine) and **Dr. Taylor T. Johnson** (Vanderbilt University, EECS), whose mentorship deeply shaped my interdisciplinary approach to studying vision and computation.
 
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [Tail](https://github.com/jitinnair1/tail) - a minimal, quick-setup template for a blog
+[**→ Learn more about my research**](/research)  
+[**→ View my CV**](/cv)
