@@ -22,6 +22,6 @@ I’ve also had the privilege of working with [Dr. Solange Brown](https://neuros
 
 [**→ Learn more about my research**](/research)  
 [**→ Why vision? Why research?**](/curiosity)  
-[**→ View my CV**](/cv)
+[**→ View my CV**](/assets/files/Seojin_Lee_Resume.pdf){:target="_blank"}
 {% endcapture %}
 {{ md | markdownify }}

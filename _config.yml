@@ -26,7 +26,7 @@ paginate_path: /blog/page:num/
 
 # Social media links in footer
 googlescholar: "https://scholar.google.com/citations?user=yzh-miEAAAAJ&hl=en"
-linkedin: "https://www.linkedin.com/in/seojin-lee-95b76b223/"
+linkedin: "/seojin-lee-95b76b223/"
 # stackoverflow: "#"
 github: "https://github.com/slee20512"
 # researchgate: "#"
