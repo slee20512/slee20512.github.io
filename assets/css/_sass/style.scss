@@ -267,3 +267,45 @@ article p {
   font-weight: 600;
   border-bottom: 2px solid $brand-color;
 }
+/* === Curiosity Page Styling === */
+.curiosity-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2.5em 1.5em;
+  line-height: 1.8;
+}
+
+.curiosity-page h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 2.5em;
+  margin-bottom: 0.8em;
+  text-align: center;
+}
+
+.curiosity-page img {
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 10px;
+  width: 75%;
+  max-width: 700px;
+}
+
+.curiosity-page hr {
+  border: none;
+  border-top: 1px solid rgba(120,120,120,0.3);
+  margin: 3em 0;
+}
+
+.curiosity-page p {
+  font-size: 1.05rem;
+  color: $text-color;
+  margin-bottom: 1.2em;
+  text-align: justify;
+}
+
+@media (prefers-color-scheme: dark) {
+  .curiosity-page p {
+    color: lighten($text-color-dark, 10%);
+  }
+}
