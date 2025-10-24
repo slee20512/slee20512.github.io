@@ -35,6 +35,13 @@ target="_blank">
 </a>
 {%- endif -%}
 
+{% if site.googlescholar %}
+  <a href="{{ site.googlescholar }}" target="_blank" title="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+{% endif %}
+
+
 {%- if site.orcid -%}
 <a title="{{ _locale_string_follow | replace: '[NAME]', 'Orcid' }}"
 class="social-button orcid"

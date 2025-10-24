@@ -3,8 +3,19 @@
 title: Seojin Lee
 description: Ph.D. student | Stanford University | Vision Science & Computational Modeling
 
-baseurl: /gradfolio #name of GitHub repository
-url: "seojinl.github.io" #custom url to be used instead of GitHub repository
+nav:
+  - name: "Home"
+    link: /
+  - name: "Research"
+    link: /research/
+  - name: "Curiosity"
+    link: /curiosity/
+  - name: "Life outside academia"
+    link: /lifeoutsideacademia/
+
+
+baseurl: ""    # empty because this is your main site, not inside a subfolder
+url: "https://slee20512.github.io"
 email: seojinl@stanford.edu
 
 # Pagination
@@ -13,15 +24,16 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+googlescholar: "https://scholar.google.com/citations?user=yzh-miEAAAAJ&hl=en"
+linkedin: "https://www.linkedin.com/in/seojin-lee-95b76b223/"
+# stackoverflow: "#"
+github: "https://github.com/slee20512"
+# researchgate: "#"
+# orcid: "#"
+# quora: "#"
+# instagram: "#"
+# facebook: "#"
+# bluesky: "#"
 
 # Markdown
 highlighter: rouge

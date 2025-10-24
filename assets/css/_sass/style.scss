@@ -200,3 +200,70 @@ blockquote {
 }
 
 
+/* === Custom Homepage Text Styling === */
+article {
+  font-size: 1rem;          /* base size */
+  line-height: 1.7;         /* slightly airier for better rhythm */
+  color: $text-color;
+}
+
+article strong,
+article b {
+  font-weight: 1050;                  /* stronger than 700, if your font supports it */
+  color: #000000;                    /* full black for clear contrast */
+  letter-spacing: 0.1px;             /* keeps it crisp */
+  text-rendering: optimizeLegibility;
+  
+  @media (prefers-color-scheme: dark) {
+    color: #f5f5f5;                  /* light gray in dark mode */
+  }
+}
+
+article p {
+  max-width: 720px;          /* slightly wider text for balance */
+  margin-bottom: 1.2em;      /* extra breathing room between paragraphs */
+}
+
+
+/* === Custom header text styling === */
+.post-description {
+  font-size: 1.25rem;      /* slightly smaller subtitle */
+  font-weight: 400;       /* lighter than default */
+  letter-spacing: 0.3px;  /* optional: subtle spacing for cleaner look */
+  margin-top: 0.7em;     /* reduce space above */
+  margin-bottom: 0.4em;     /* reduce space above */
+  color: lighten($text-color, 10%);  /* make it softer */
+  
+  @media (prefers-color-scheme: dark) {
+    color: lighten($text-color-dark, 20%);
+  }
+}
+
+/* === Navigation layout & spacing === */
+.topnav {
+  display: flex;
+  justify-content: left;   /* centers the items */
+  align-items: left;
+  gap: 2rem;                 /* space between each link */
+  margin-top: 0.3rem;
+  flex-wrap: wrap;           /* keeps it tidy on small screens */
+}
+
+.topnav a {
+  font-size: 1.15rem;
+  letter-spacing: 0.3px;
+  text-transform: none;
+  padding: 0.3em 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.topnav a:hover {
+  color: $brand-color;
+  border-bottom: 2px solid $brand-color;
+}
+
+.topnav a.active {
+  font-weight: 600;
+  border-bottom: 2px solid $brand-color;
+}
