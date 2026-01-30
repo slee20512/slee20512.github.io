@@ -73,7 +73,7 @@ sass:
 
 include:
   - _pages
-
+  - google974e6108ba91edf.html
 exclude:
   - README.md
   - LICENSE.md
